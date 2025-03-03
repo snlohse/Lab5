@@ -1,0 +1,82 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center; /* Center align the main content */
+}
+
+#map, #map2 {
+    width: 70%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px; /* Smaller font size */
+    margin-top: 10px;
+    text-align: left; /* Align text to the left */
+    margin-left: 15%; /* Indent the text to align it with the map */
+    margin-right: 10%; /* Right margin to stop text at the map's edge */
+    word-wrap: break-word; /* Ensure text wraps correctly */
+}
+
+h3 a {
+    color: #007bff; /* Blue color for the link in h3 */
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline; /* Underline on hover for h3 link */
+}
+
+/* Styling the first map's legend */
+.legend1 {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 5px; /* Adjust padding to align with the left edge */
+    margin-left: 0; /* Align left with map */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+}
+
+/* Styling the second map's legend */
+.legend2 {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 5px; /* Adjust padding to align with the left edge */
+    margin-left: 0; /* Align left with map */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+}
+
+/* Ensure the title "Prison Rate" aligns with the left edge for map2 */
+.legend2 b {
+    font-size: 14px;
+    padding-left: 0; /* No padding on the title */
+    margin-left: 0; /* Align title text with the edge */
+}
+
+/* Style for color swatches */
+.legend div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.legend i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.legend span {
+    margin-left: 8px;
+}

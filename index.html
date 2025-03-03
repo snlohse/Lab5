@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Incarceration</title>
+
+    <script src="data/us-states.js"></script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Turf.js for spatial analysis -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+     <!-- Title for the first map -->
+     <h2>Incarceration Facilities Across the U.S.</h2>
+     
+     <div id="map"></div>
+     <h3>Total number of facilities by state. This 2020 data was provided by the <a href="https://www.prisonpolicy.org/" target="_blank">Prison Policy Initiative.</a></h3>
+ 
+     <!-- Title for the second map -->
+     <h2>United States' Prison Population in 2021</h2>
+     <div id="map2"></div>
+     <h3>Incarceration Rates Rates per 100,000 Residents in 2021. Data provided by the Bureau of Justice Statistics and the US Census.</h3>
+ 
+     <!-- Link to external JavaScript file -->
+     <script src="js/main.js"></script>
+     <script src="js/main2.js"></script>
+
+</body>
+</html>
